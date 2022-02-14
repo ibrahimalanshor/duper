@@ -1,0 +1,15 @@
+{
+  "name": "duper",
+  "description": "Duper Project Management, built with Node Js (express and Vue)",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "staged": "npx lint-staged",
+    "prepare": "husky install"
+  },
+  "author": "Ibrahim Al Anshor",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^7.0.4"
+  }
+}
