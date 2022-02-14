@@ -24,10 +24,10 @@ npm run build
 
 ## Script
 
-* `dev`, run dev server
-* `build`, build
-* `preview`, preview
-* `format:check`, check prettier
-* `format:write`, write prettier
-* `lint:check`, check lint
-* `lint:fix`, fix lint`
+- `dev`, run dev server
+- `build`, build
+- `preview`, preview
+- `format:check`, check prettier
+- `format:write`, write prettier
+- `lint:check`, check lint
+- `lint:fix`, fix lint`

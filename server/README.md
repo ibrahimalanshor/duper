@@ -24,9 +24,9 @@ npm run dev
 
 ## Script
 
-* `start`, run server
-* `dev`, run dev server
-* `format:check`, check prettier
-* `format:write`, write prettier
-* `lint:check`, check lint
-* `lint:fix`, fix lint`
+- `start`, run server
+- `dev`, run dev server
+- `format:check`, check prettier
+- `format:write`, write prettier
+- `lint:check`, check lint
+- `lint:fix`, fix lint`
