@@ -10,7 +10,7 @@ const rules = [
     .notEmpty()
     .withMessage('Name Required')
     .bail()
-    .isAlpha('en-US', { ignore: ' ' })
+    .isAlphanumeric('en-US', { ignore: ' ' })
     .withMessage('Name Must Be String')
     .bail()
     .custom((val, { req }) =>
