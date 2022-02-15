@@ -8,7 +8,7 @@
       v-on:click="create"
       v-if="isAllowed"
     />
-    <div class="columns" v-if="project.boards.length">
+    <div class="columns is-multiline" v-if="project.boards.length">
       <div
         class="column is-4"
         v-for="(board, key) of project.boards"
