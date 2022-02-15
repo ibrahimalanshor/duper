@@ -12,11 +12,13 @@ http.interceptors.request.use(config => {
 
     if (Date.now() > exp * 1000) {
       store.commit('auth/logout')
+
+      router.push({ name: 'Login' })
     }
 
     return config
   } else {
-    router.push({ name: 'Login' })
+     return config
   }
 })
 
