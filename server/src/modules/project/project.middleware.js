@@ -33,7 +33,6 @@ module.exports = {
       const auth = req.auth
 
       if (auth.role === 'employee') {
-        console.log(req.params)
         await checkWorker(
           req.params.id,
           req.params.board_id,
