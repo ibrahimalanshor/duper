@@ -6,7 +6,6 @@ const { UploadException } = require('../../../exceptions')
 const storage = multer.diskStorage({
   destination: static_path + '/project/docs',
   filename: (req, file, cb) => {
-    console.log(file)
     cb(
       null,
       file.fieldname + '-' + Date.now() + path.extname(file.originalname)
