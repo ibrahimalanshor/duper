@@ -5,7 +5,7 @@ if (process.env.NODE_ENV === 'development') {
 const path = require('path')
 
 module.exports = {
-  app_port: process.env.APP_PORT ?? 4000,
+  app_port: process.env.APP_PORT || process.env.PORT || 4000,
   app_url: process.env.APP_URL,
   app_key: process.env.APP_KEY,
   static_url: process.env.STATIC_URL,
