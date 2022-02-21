@@ -44,7 +44,7 @@ class App {
   }
 
   async connectDB() {
-    await mongoose.connect(`${this.db.url}/${this.db.name}`)
+    await mongoose.connect(this.db.url)
   }
 
   listen() {
